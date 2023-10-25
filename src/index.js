@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.js';
+import Topo from './topo.js'
+import Rodape from './rodape.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Topo />
     <App />
+    <Rodape />
   </React.StrictMode>
 );
 

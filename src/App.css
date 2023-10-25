@@ -1,38 +1,73 @@
-.App {
+/*
+    FONTES
+*/
+
+@font-face {
+  font-family: youmudererbb;
+  src: url('./fonts/youmurdererbb.ttf');
+}
+
+/*
+  /FONTES
+*/
+
+/*
+    CONFIGURAÇÕES GERAIS
+*/
+
+.App
+{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #93009c;
+}
+
+/*
+    /CONFIGURAÇÕES GERAIS
+*/
+
+/*
+    Noticia
+*/
+
+.App .Noticia
+{
+  width: 80%;
+  height: 100%;
+  font-weight: lighter;
+  font-family: youmurdererbb;
+}
+
+.App .Noticia h1
+{
+  font-size: 2vw;
+  color: Black;
+}
+
+.App .Noticia h2
+{
+  font-size: 1.75vw;
+  color: Black;
+}
+
+.App .Noticia h3
+{
+  font-size: 1.5vw;
+  color: Black;
+}
+
+.App .Noticia p
+{
+  font-size: 1vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*
+    //Noticia
+*/
